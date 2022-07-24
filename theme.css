@@ -1,7 +1,7 @@
 body {
     animation: 10000ms ease-in-out infinite color-change;
   }
-  
+
   @keyframes color-change {
     0% {
       background-color: teal;
@@ -24,17 +24,34 @@ body {
   }
 
   .contact {
-    text-align: center;
+      padding-right: 25%;
+      padding-left: 18%;
   }
-  
+
+  .contact li {
+    margin: 10%;
+  }
+
+  .logo img{
+    max-width: 60%;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 25%;
+  }
+
   a {
     color: white;
     font-style: normal;
     text-decoration: none;
+    font-family: "Monaco", monospace;
   }
 
   a :hover {
     color: rgb(212, 212, 212);
+  }
+
+  .resume img {
+      max-width: 100%;
   }
 
   ul {
@@ -43,7 +60,7 @@ body {
     text-align: left;
     list-style: none;
     list-style-position: inside;
-    
+
   }
 
   li {
