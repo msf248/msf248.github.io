@@ -2,7 +2,7 @@ body {
     animation: 10000ms ease-in-out infinite color-change;
   }
 
-  @keyframes color-change {
+  /*  @keyframes color-change {
     0% {
       background-color: teal;
     }
@@ -21,15 +21,22 @@ body {
     100% {
       background-color: teal;
     }
-  }
+  }*/
 
   .contact {
-      padding-right: 25%;
-      padding-left: 18%;
+    text-align: center;
   }
 
-  .contact li {
-    margin: 10%;
+  .contact ul {
+    list-style: none;
+    padding:0;
+  }
+
+  .contact ul li {
+    display: inline;
+    font-size: 12pt;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .logo img{
@@ -40,7 +47,7 @@ body {
   }
 
   a {
-    color: white;
+    color: black;
     font-style: normal;
     text-decoration: none;
     font-family: "Monaco", monospace;
@@ -65,4 +72,21 @@ body {
 
   li {
     padding: 10%;
+  }
+
+  @media all and (max-width: 600px)
+  {
+      .contact {
+        text-align: center;
+      }
+
+      .contact ul {
+        list-style: none;
+        padding:0;
+      }
+
+      .contact ul li {
+        display: inline-block;
+        font-size: 10pt;
+      }
   }
