@@ -19,9 +19,9 @@ body {
   }
 
   .logo img{
-    max-width: 50%;
-    padding-right: 25%;
-    padding-left: 25%;
+    max-width: 40%;
+    padding-right: 30%;
+    padding-left: 30%;
     padding-top: 7%;
   }
 
@@ -36,22 +36,25 @@ body {
     text-decoration: none;
     font-family: "Monaco", monospace;
     font-size: 12pt;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   h1 {
-    font-weight: normal;
+    padding-top: 40px;
     font-size: 12pt;
-    text-transform: lowercase;
+    text-transform: uppercase;
   }
 
   h2 {
     font-weight: normal;
     font-size: 12pt;
-    text-transform: lowercase;
+    padding-top: 20px;
+    text-transform: uppercase;
   }
 
   h3 {
-    font-weight: normal;
+    font-style: italic;
     font-size: 12pt;
     text-transform: lowercase;
   }
